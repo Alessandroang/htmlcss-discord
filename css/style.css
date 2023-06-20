@@ -55,11 +55,41 @@
 
 header {
   padding: 1.5rem 0;
+  color: white;
+  background-color: #255ee9;
+}
+
+.button-login {
+  background-color: white;
+  color: black;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.white-paragraph {
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 
 /* # JUMBOTRON */
 
 .jumbotron {
+  background-size: cover;
+  background-image: url(../img/jumbo.png);
   min-height: 400px;
   padding: 2rem 0;
   display: flex;
@@ -126,54 +156,6 @@ section.bg-gray {
 }
 
 /* ! DEBUG */
-
-.debug .bordered {
-  border: 2px dashed var(--black);
-}
-
-.debug .bordered-white {
-  border: 2px dashed var(--white);
-}
-
-.debug .bg-cyan {
-  background-color: var(--cyan);
-  min-height: 50px;
-}
-
-.debug .bg-golden {
-  background-color: var(--golden);
-  min-height: 50px;
-}
-
-.debug .bg-blue {
-  background-color: var(--blue);
-  /* min-height: 50px; */
-}
-
-.debug .bg-fuchsia {
-  background-color: var(--fuchsia);
-  /* min-height: 50px; */
-}
-
-.debug .bg-azure {
-  background-color: var(--azure);
-  min-height: 50px;
-}
-
-.debug .bg-pink {
-  background-color: var(--pink);
-  min-height: 50px;
-}
-
-.debug .bg-green {
-  background-color: var(--green);
-  min-height: 50px;
-}
-
-.debug .bg-salmon {
-  background-color: var(--salmon);
-  min-height: 50px;
-}
 
 .debug .bg-teal {
   background-color: var(--teal);
