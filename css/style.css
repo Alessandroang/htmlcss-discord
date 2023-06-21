@@ -78,6 +78,15 @@ header {
   border-radius: 20px;
   padding: 5px;
   font-weight: bold;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 h1 {
