@@ -51,6 +51,19 @@
   align-items: center;
 }
 
+.wave {
+  color: #d3d3d3;
+  display: block;
+  height: 100px;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.wave-rotate {
+  display: block;
+  color: #d3d3d3;
+}
+
 /* # HEADER */
 
 header {
@@ -62,8 +75,9 @@ header {
 .button-login {
   background-color: white;
   color: black;
-  border-radius: 20%;
+  border-radius: 20px;
   padding: 5px;
+  font-weight: bold;
 }
 
 h1 {
@@ -76,7 +90,7 @@ h1 {
 h2 {
   color: black;
   font-size: 30px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .white-paragraph {
@@ -106,10 +120,12 @@ h2 {
 
 section.bg-white {
   background-color: var(--white);
+  text-align: center;
 }
 
 section.bg-gray {
   background-color: var(--gray);
+  text-align: center;
 }
 
 .main-section {
@@ -139,6 +155,12 @@ section.bg-gray {
   padding: 2rem 0;
 }
 
+li {
+  list-style: none;
+  padding-bottom: 10px;
+  color: #d3d3d3;
+}
+
 .footer-bottom > .container > * {
   padding: 0.25rem 0.5rem;
 }
@@ -157,19 +179,19 @@ section.bg-gray {
 
 /* ! DEBUG */
 
-.debug .bg-teal {
+/* .debug .bg-teal {
   background-color: var(--teal);
   min-height: 50px;
-}
+} */
 
-.debug .bg-aquamarine {
+/* .debug .bg-aquamarine {
   background-color: var(--aquamarine);
   min-height: 50px;
 }
 
 .debug .bg-lightpink {
   background-color: var(--lightpink);
-}
+} */
 
 .debug .tall {
   min-height: 350px;
